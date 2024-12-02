@@ -30,8 +30,8 @@ Log into as an admin user via http://localhost/osTicket/scp then click on Admin 
 <br />
 
 <p>
-<img src="https://i.imgur.com/OaNJfwN.png" height="80%" width="80%" alt="configure roles in osticket"/>
-<img src="https://i.imgur.com/d1WaVae.png" height="80%" width="80%" alt="osticket roles"/>
+<img src="https://i.imgur.com/lpCEmOc.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/d0xEC62.png" height="80%" width="80%" />
 </p>
 <p>
 Each of the roles allow for differing permissions for the agents that we will create. It ranges from View only, which essentially means the agent can only the view ticket and nothing else, all the way to All access, which is essentially unlimited access and can allow an agent to assign tickets to others, change SLA levels, create, close, delete tickets and the like. If we click on Departments next to the Roles tab, then Add new department we get this.
@@ -39,7 +39,7 @@ Each of the roles allow for differing permissions for the agents that we will cr
 <br />
 
 <p>
-<img src="https://i.imgur.com/8dziWDH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BrivLPw.png" height="80%" width="80%" />
 </p>
 <p>
 This section allows us to create different departments within the company, set different SLA schedules, allow tickets to be assigned to certain departments and send alerts and autoresponses. Next, we can click on the Teams tab and then Add New team.
@@ -47,7 +47,7 @@ This section allows us to create different departments within the company, set d
 <br />
 
 <p>
-  <img src="https://i.imgur.com/Mwj9raX.png" height="80%" width="80%" alt="osticket teams"/>
+  <img src="https://i.imgur.com/x3t46ev.png" height="80%" width="80%" />
 </p>
 
 <p>
@@ -57,7 +57,7 @@ In addition, we can allow users to create tickets without having to register an 
 </p>
 <br />
 <p>
-  <img src="https://i.imgur.com/bMlmcWt.png" height="80%" width="80%" alt="any user can create ticket"/>
+  <img src="https://i.imgur.com/pGe7fEx.png" height="80%" width="80%" />
 </p>
 
 <p>
@@ -65,7 +65,7 @@ Now can create some agents to work our tickets. Click on Agents (big tab) -> Add
 </p>
 <br />
 <p>
-  <img src="https://i.imgur.com/6DRAyJu.png" height="80%" width="80%" alt="creating new agents"/>
+  <img src="https://i.imgur.com/VB0TioR.png" height="80%" width="80%" />
 </p>
 
 <p>
@@ -73,8 +73,8 @@ We can set an agent's name, password, email address, as well as their access, pe
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/b5WfIq1.png" height="80%" width="80%" alt="setting agents access"/>
-<img src="https://i.imgur.com/dfg5fLP.png" height="80%" width="80%" alt="john and jane doe agents"/>
+<img src="https://i.imgur.com/1S1guxh.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/jomxLlm.png" height="80%" width="80%" />
 
 </p>
 
@@ -85,7 +85,7 @@ We can also create users (customers) that need support. To do that, click on the
 </p>
 <br />
 <p>
-  <img src="https://i.imgur.com/kKMGzST.png" height="80%" width="80%" alt="creating users"/>
+  <img src="https://i.imgur.com/AGaSsDV.png" height="80%" width="80%" />
 </p>
 
 <p>
@@ -93,7 +93,7 @@ It's also important that our agents can work through the tickets according to ho
 </p>
 <br />
 <p>
-  <img src="https://i.imgur.com/n476nPM.png" height="80%" width="80%" alt="creating SLA"/>
+  <img src="https://i.imgur.com/CUIRala.png" height="80%" width="80%" />
 </p>
 
 <p>
@@ -104,7 +104,7 @@ Finally, we can also create different help topics to allow tickets to be sent in
 <br />
 
 <p>
-<img src="https://i.imgur.com/3cRwV9i.png" height="80%" width"80%" alt="create help topics"/>
+<img src="https://i.imgur.com/Cs71oCW.png" height="80%" width"80%" />
 </p>
 <p>
 We can now create different help topics and choose a Top level topic, like Report a Problem, to create a more specific help topic within this area like Access Issue.
