@@ -25,7 +25,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-Log into as an admin user via http://localhost/osTicket/scp then click on Admin Panel in the top right then hover over Agents in the bigger, parent menu option and then click on Roles.
+Access the staff control panel (http://localhost/osTicket/scp) and log in as the admin user. Navigate to Admin Panel > Agents > Roles.
 </p>
 <br />
 
@@ -34,7 +34,8 @@ Log into as an admin user via http://localhost/osTicket/scp then click on Admin 
 <img src="https://i.imgur.com/d0xEC62.png" height="80%" width="80%" />
 </p>
 <p>
-Each of the roles allow for differing permissions for the agents that we will create. It ranges from View only, which essentially means the agent can only the view ticket and nothing else, all the way to All access, which is essentially unlimited access and can allow an agent to assign tickets to others, change SLA levels, create, close, delete tickets and the like. If we click on Departments next to the Roles tab, then Add new department we get this.
+Agent roles define permission levels, from "View only" (limited to viewing tickets) to "All access" (unrestricted actions, including assigning, modifying, and deleting tickets).  To create a new department, navigate to 
+Admin Panel > Agents > Departments > Add new department.
 </p>
 <br />
 
@@ -42,7 +43,7 @@ Each of the roles allow for differing permissions for the agents that we will cr
 <img src="https://i.imgur.com/BrivLPw.png" height="80%" width="80%" />
 </p>
 <p>
-This section allows us to create different departments within the company, set different SLA schedules, allow tickets to be assigned to certain departments and send alerts and autoresponses. Next, we can click on the Teams tab and then Add New team.
+The Departments section allows for creating and managing departments, configuring SLAs, assigning tickets, and setting up alerts and autoresponses.  To create a new team, navigate to Admin Panel > Agents > Teams > Add New Team.
 </p>
 <br />
 
@@ -51,10 +52,8 @@ This section allows us to create different departments within the company, set d
 </p>
 
 <p>
-We can create teams within departments to help categorise different roles of our agents. For example, we can create an Online Banking team with the SysAdmins department. Then, we may also add Members within the team to respond to tickets. Although, we can only do this once we've created the agents.
-
-In addition, we can allow users to create tickets without having to register an account for our help desk. Click on Settings -> Users -> Uncheck Require registration and login to create tickets option. This will make it easier for users to get IT support.
-</p>
+Teams allow further categorization of agents within departments (e.g., an "Online Banking" team within the "SysAdmins" department). Members can be added to teams to handle tickets.  To allow unregistered users to create tickets, go to 
+Settings > Users and uncheck "Require registration and login to create tickets."
 <br />
 <p>
   <img src="https://i.imgur.com/pGe7fEx.png" height="80%" width="80%" />
@@ -69,7 +68,7 @@ Now can create some agents to work our tickets. Click on Agents (big tab) -> Add
 </p>
 
 <p>
-We can set an agent's name, password, email address, as well as their access, permissions and in which team they'll be on. For example, we can create an agent named Jane Doe and assign her to the SysAdmins department and give her All Access. Setting the access will also set the preconfigured permissions, but you can also fine-tune certain permissions if you like. We also create another user named John Doe and assign him to the Support department and give him Expanded Access.
+Configure agent accounts with details like name, password, email, access level (which sets pre-configured permissions), and team assignment. For example, create "Jane Doe" with "All Access" in the "SysAdmins" department, and "John Doe" with "Expanded Access" in the "Support" department. Permissions can be fine-tuned as needed.
 </p>
 <br />
 <p>
@@ -79,9 +78,7 @@ We can set an agent's name, password, email address, as well as their access, pe
 </p>
 
 <p>
-It will be also a good idea to assign each agent to certain teams so that they can assign tickets to other agents from other teams if needed. Simply click on Teams and add each agent to their required team. In this instance, we'll assign Jane Doe to Online Banking and John Doe to Support.
-
-We can also create users (customers) that need support. To do that, click on the Agent Panel at the top right then click on Users then Add User. In this example, we can create 2 users named Karen and Ken.
+Assign agents to their respective teams (e.g., Jane Doe to "Online Banking," John Doe to "Support") to enable ticket assignments between teams.  To create users, navigate to Admin Panel > Users > Add User.  Create two users, "Karen" and "Ken."
 </p>
 <br />
 <p>
@@ -89,7 +86,7 @@ We can also create users (customers) that need support. To do that, click on the
 </p>
 
 <p>
-It's also important that our agents can work through the tickets according to how important or urgent it is based on business impact. We can do this by creating differing SLA (service level agreement) levels.
+To ensure timely resolution of critical issues, osTicket allows you to define Service Level Agreements (SLAs).  SLAs help prioritize tickets based on their urgency and potential impact on the business. By assigning different SLA levels, you can ensure that agents address the most critical issues first.
 </p>
 <br />
 <p>
@@ -97,9 +94,8 @@ It's also important that our agents can work through the tickets according to ho
 </p>
 
 <p>
-Click on Add New SLA plan and we can add in the details for our SLAs based on severity (Sev-A being most urgent to Sev-C being least urgent). We want to set it like this <b>Sev-A</b> (grace period: 1hr, schedule: 24x7), <b>Sev-B</b> (grace period: 4hr, schedule: 24x7), <b>Sev-C</b> (grace period: 8hr, schedule: during business hours). 
-
-Finally, we can also create different help topics to allow tickets to be sent in the right category for our agents to work through. In reality, we will likely have to reassign the ticket to a more appropriate help topic as users don't usually choose the best one. But it's good to have options! Click on the Admin Panel at the top then Manage and then Add New Help Topic.
+Create SLA plans to prioritize tickets based on severity (Sev-A being the most urgent). Configure Sev-A with a 1-hour grace period and 24x7 schedule, Sev-B with a 4-hour grace period and 24x7 schedule, and Sev-C with an 8-hour grace period and business hours schedule.  To create help topics for ticket categorization, navigate to 
+Admin Panel > Manage > Add New Help Topic.
 </p>
 <br />
 
@@ -107,7 +103,7 @@ Finally, we can also create different help topics to allow tickets to be sent in
 <img src="https://i.imgur.com/Cs71oCW.png" height="80%" width"80%" />
 </p>
 <p>
-We can now create different help topics and choose a Top level topic, like Report a Problem, to create a more specific help topic within this area like Access Issue.
+Create help topics with hierarchical categorization. For example, create a top-level topic like "Report a Problem" and then add subtopics like "Access Issue" for more specific categorization.
 </p>
 <br />
 
